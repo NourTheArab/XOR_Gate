@@ -7,7 +7,7 @@ This project implements a simple feedforward neural network from scratch using N
 ```
 XOR_Gate
 ├── xor.txt                  # XOR dataset in tab-separated format
-├── Lab_D_Implementation.py # Full neural network code (training, evaluation, visualization)
+├── XOR_Gate.py # Full neural network code (training, evaluation, visualization)
 ├── loss_plot.png            # Plot of training loss over epochs
 ├── network_diagram.png      # Neural network architecture diagram with weights & biases
 ├── Implementing_and_Visualizing_a_Neural_Network_to_Solve_the_XOR_Problem.pdf
