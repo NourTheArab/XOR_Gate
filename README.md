@@ -1,11 +1,11 @@
-# XOR Neural Network – Lab D (CS365)
+# XOR Gate - Neural Network
 
-This project implements a simple feedforward neural network from scratch using NumPy to solve the classic XOR problem. It is part of Lab D for the CS365 Machine Learning course.
+This project implements a simple feedforward neural network from scratch using NumPy to solve the classic XOR problem.
 
-## 📁 File Structure
+## File Structure
 
 ```
-Lab_D_Nour/
+XOR_Gate
 ├── xor.txt                  # XOR dataset in tab-separated format
 ├── Lab_D_Implementation.py # Full neural network code (training, evaluation, visualization)
 ├── loss_plot.png            # Plot of training loss over epochs
@@ -13,7 +13,7 @@ Lab_D_Nour/
 ├── Implementing_and_Visualizing_a_Neural_Network_to_Solve_the_XOR_Problem.pdf
 ```
 
-## 🔧 What’s Implemented
+## What’s Implemented
 
 - **Neural Network Initialization**: Two-layer network with customizable size
 - **Sigmoid Activation**: Used for both hidden and output layers
@@ -27,12 +27,12 @@ Lab_D_Nour/
   - Schematic of the neural network with weights and biases (`network_diagram.png`)
 - **Output Display**: Final predictions are printed and exported as a DataFrame
 
-## 📊 Results
+## Results
 
 - The model successfully learns XOR with a final loss < 0.01.
 - Outputs closely match expected values: [0, 1, 1, 0].
 
-## 🧠 Requirements
+## Requirements
 
 - Python 3.x
 - `numpy`
@@ -45,7 +45,7 @@ Install dependencies with:
 pip install numpy matplotlib pandas
 ```
 
-## 📝 Write-Up
+## Write-Up
 
 See the accompanying PDF for a full explanation of:
 - Algorithm design
@@ -53,4 +53,8 @@ See the accompanying PDF for a full explanation of:
 - Visual output interpretation
 - Learning outcomes
 
-📄 **`Implementing_and_Visualizing_a_Neural_Network_to_Solve_the_XOR_Problem.pdf`**
+**`Implementing_and_Visualizing_a_Neural_Network_to_Solve_the_XOR_Problem.pdf`**
+
+#### Side Note
+
+Added or, nor, nand, and in case someone wants to use it for a different gate.
